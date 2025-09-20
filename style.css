@@ -72,6 +72,11 @@ body{
     background-color: #d2bc59;
 }
 
+.spot.win {
+    background-color: #04396b;
+    box-shadow: 0 0 15px #04396b;
+}
+
 #box2{
     width: 45vw;
     display: flex;
@@ -172,7 +177,7 @@ body{
     margin-bottom: 10px;
 }
 
-#you, #bot {
+#plyr1, #plyr2 {
     font-size: 1.8em;
     font-family: cursive;
     color: #1e1e1e;
