@@ -47,8 +47,8 @@ function check() {
             win.who = turn;
             if(turn === "X") x_points++;
             else o_points++;
-            p1.innerText = "Plyr1(X): " + x_points;
-            p2.innerText = "Plyr2(O): " + o_points;
+            p1.innerText = "Plyr1(X):" + x_points;
+            p2.innerText = "Plyr2(O):" + o_points;
             boxes[values[0]].classList.add("win");
             boxes[values[1]].classList.add("win");
             boxes[values[2]].classList.add("win");
