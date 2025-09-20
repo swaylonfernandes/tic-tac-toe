@@ -57,7 +57,6 @@ function check() {
         }
     }
     if(!win.flag && count === 9) {
-        alert("Draw!");
         setTimeout(initialize, 3000);
     }
 }
@@ -85,8 +84,8 @@ resetBtn.addEventListener("click", () => {
     win = {flag: false, who: ""};
     t.innerText = "Turn: " + turn;
     r.innerText = "Round " + round;
-    p1.innerText = "Plyr1(X): " + x_points;
-    p2.innerText = "Plyr2(O): " + o_points;
+    p1.innerText = "Plyr1(X):" + x_points;
+    p2.innerText = "Plyr2(O):" + o_points;
     boxes.forEach((box) => {
         box.innerHTML = "";
         box.classList.remove("win");
